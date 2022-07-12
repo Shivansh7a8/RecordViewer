@@ -1,4 +1,6 @@
-web:
+version: "2.6.1"
+services: 
+ web:
   build: .
   command: 'bash -c ''node app.js'''
   working_dir: /usr/src/app
